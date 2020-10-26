@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/maxelweb/Github/adacore-sandbox/Erathostenes-III/Main.gpr
+20191027160436 765aa1916902703217b4c06fea336792
+[BOUND OBJECT FILES]
+/home/maxelweb/Github/adacore-sandbox/Erathostenes-III/obj/soe.o
+/home/maxelweb/Github/adacore-sandbox/Erathostenes-III/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/maxelweb/Github/adacore-sandbox/Erathostenes-III/obj/
+-L/home/maxelweb/Github/adacore-sandbox/Erathostenes-III/obj/
+-L/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/adalib/
+-static
+/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/adalib/libgnarl.a
+/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/adalib/libgnat.a
+-lrt
+-lpthread
+-ldl
