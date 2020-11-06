@@ -27,17 +27,16 @@ RV NO_SELECT_STATEMENTS
 RV NO_STANDARD_STORAGE_POOLS
 RV NO_TASK_ALLOCATORS
 RV NO_TASKING
-RV NO_TERMINATE_ALTERNATIVES
 RV NO_DEFAULT_INITIALIZATION
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
-RV MAX_SELECT_ALTERNATIVES=2
+RV MAX_SELECT_ALTERNATIVES=1
 RV MAX_TASK_ENTRIES=1
 RV MAX_TASKS=1+
 
-U soe%b			soe.adb			a2a93636 OO PK
+U soe%b			soe.adb			7c767b3e OO PK
 W ada%s			ada.ads			ada.ali
 Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
@@ -80,7 +79,7 @@ D interfac.ads		20200901160831 5ab55268 interfaces%s
 D i-c.ads		20200901160831 5421119b interfaces.c%s
 D i-cstrea.ads		20200901160831 e53d8b8e interfaces.c_streams%s
 D soe.ads		20191027160436 2c999cc3 soe%s
-D soe.adb		20191027160436 87d41e8d soe%b
+D soe.adb		20201028094208 590b5385 soe%b
 D system.ads		20200901160831 4635ec04 system%s
 D s-atacco.ads		20200901160831 4c36d12f system.address_to_access_conversions%s
 D s-conca3.ads		20200901160831 0b705ca5 system.concat_3%s

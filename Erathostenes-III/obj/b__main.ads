@@ -303,7 +303,7 @@ package ada_main is
    pragma Export (C, u00132, "system__val_unsB");
    u00133 : constant Version_32 := 16#47b5ed3e#;
    pragma Export (C, u00133, "system__val_unsS");
-   u00134 : constant Version_32 := 16#a2a93636#;
+   u00134 : constant Version_32 := 16#7c767b3e#;
    pragma Export (C, u00134, "soeB");
    u00135 : constant Version_32 := 16#93d61ca8#;
    pragma Export (C, u00135, "soeS");

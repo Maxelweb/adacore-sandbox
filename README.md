@@ -72,4 +72,5 @@ Fintanto che qualcuno ha in "pancia" un thread non può eseguire `terminate`.
 
 Provare a capire il senso dell'ordine dei Sieve e provare a togliere i `terminate`.
 
+- Togliendo `or terminate`, Il programma non termina e rimane sempre attivo.
 
