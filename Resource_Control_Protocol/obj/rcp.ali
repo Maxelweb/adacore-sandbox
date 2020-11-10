@@ -1,0 +1,33 @@
+V "GNAT Lib v10"
+A -gnatA
+A -g
+A -gnatwe
+A -gnaty
+A -gnato
+A -g
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U rcp%s			rcp.ads			92b1d698 NE OO PK IU
+
+D rcp.ads		20191109184152 92b1d698 rcp%s
+D system.ads		20200930073818 4635ec04 system%s
+G a e
+G c Z s s [resource_tIP rcp 12 9 none]
+X 1 rcp.ads
+1K9*RCP 16l5 16e8
+5i4*Max_Requests{positive} 6r33
+6I9*Request_T<short_short_integer> 14r17 14r30
+8E9*Use_T 8e39 13r17
+8n19*Long{8E9} 13r29
+8n25*Medium{8E9}
+8n33*Short{8E9}
+12R9*Resource_T 15e14
+13e7*Item{8E9}
+14i7*Granted{6I9}
+

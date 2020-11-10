@@ -1,0 +1,92 @@
+V "GNAT Lib v10"
+M P W=b
+A -gnatA
+A -g
+A -gnatwe
+A -gnaty
+A -gnato
+A -g
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+RV MAX_TASKS=1+
+
+U main%b		main.adb		f55a3727 NE OO SU
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W rcp%s			rcp.ads			rcp.ali
+W rcp.control%s		rcp-control.adb		rcp-control.ali
+W rcp.user%s		rcp-user.adb		rcp-user.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20200930073818 76789da1 ada%s
+D a-except.ads		20200930073818 a7106115 ada.exceptions%s
+D a-finali.ads		20200930073818 bf4f806b ada.finalization%s
+D a-reatim.ads		20200930073818 0240fc73 ada.real_time%s
+D a-stream.ads		20200930073818 119b8fb3 ada.streams%s
+D a-tags.ads		20200930073818 491b781d ada.tags%s
+D a-unccon.ads		20200930073818 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200930073818 5ab55268 interfaces%s
+D i-c.ads		20200930073818 5421119b interfaces.c%s
+D main.adb		20191109184228 ebed7fee main%b
+D rcp.ads		20191109184152 92b1d698 rcp%s
+D rcp-control.ads	20161026115012 2546cd34 rcp.control%s
+D rcp-user.ads		20191109183120 a9405365 rcp.user%s
+D system.ads		20200930073818 4635ec04 system%s
+D s-atacco.ads		20200930073818 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20200930073818 54135002 system.exception_table%s
+D s-finroo.ads		20200930073818 4ff27390 system.finalization_root%s
+D s-linux.ads		20200930073818 ed0b8aee system.linux%s
+D s-multip.ads		20200930073818 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20200930073818 2da46a9c system.os_constants%s
+D s-osinte.ads		20200930073818 baabc537 system.os_interface%s
+D s-parame.ads		20200930073818 48ec542b system.parameters%s
+D s-secsta.ads		20200930073818 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200930073818 a7318a92 system.soft_links%s
+D s-stache.ads		20200930073818 a37c21ec system.stack_checking%s
+D s-stausa.ads		20200930073818 017a0a05 system.stack_usage%s
+D s-stalib.ads		20200930073818 09bd3940 system.standard_library%s
+D s-stoele.ads		20200930073818 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20200930073818 2b3f8252 system.task_info%s
+D s-taspri.ads		20200930073818 f40ac08d system.task_primitives%s
+D s-taprop.ads		20200930073818 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20200930073818 b9d612e2 system.tasking%s
+D s-taprob.ads		20200930073818 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20200930073818 60ad3dae system.tasking.protected_objects.entries%s
+D s-tassta.ads		20200930073818 cca55c94 system.tasking.stages%s
+D s-traent.ads		20200930073818 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200930073818 34867c83 system.unsigned_types%s
+G a e
+G c Z b b [main standard 4 11 none]
+G r s user_t [main standard 4 11 none] [user_tVIP rcp__user 5 4 none]
+G r q none [main standard 4 11 none] [user_t rcp__user 5 14 none]
+X 10 main.adb
+4U11*Main 4b11 22l5 22t9
+8t4 One{13|5T14}
+10t4 Two{13|5T14}
+12t4 Three{13|5T14}
+14t4 Four{13|5T14}
+16t4 Five{13|5T14}
+18t4 Six{13|5T14}
+X 11 rcp.ads
+1K9*RCP 10|1w6 2r6 3r6 5r8 5r13 5r26 11|16e8
+8n19*Long{8E9} 10|16r23 18r23
+8n25*Medium{8E9} 10|12r23 14r23
+8n33*Short{8E9} 10|8r23 10r23
+X 12 rcp-control.ads
+1K13*Control 10|2w10 5r17 12|34e16
+X 13 rcp-user.ads
+1K13*User 10|3w10 5r30 13|11e13
+5T14*User_T 10|8r12 10r12 12r12 14r12 16r12 18r12
+X 26 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+

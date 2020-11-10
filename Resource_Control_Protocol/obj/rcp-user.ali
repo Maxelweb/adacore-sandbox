@@ -1,0 +1,134 @@
+V "GNAT Lib v10"
+A -gnatA
+A -g
+A -gnatwe
+A -gnaty
+A -gnato
+A -g
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U rcp.user%b		rcp-user.adb		ec5e1e40 OO PK IU
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W rcp%s			rcp.ads			rcp.ali
+W rcp.control%s		rcp-control.adb		rcp-control.ali
+Z system%s		system.ads		system.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+U rcp.user%s		rcp-user.ads		3bf185fd EE NE OO PK IU
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+W rcp%s			rcp.ads			rcp.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20200930073818 76789da1 ada%s
+D a-calend.ads		20200930073818 474d9720 ada.calendar%s
+D a-caldel.ads		20200930073818 9f20b83d ada.calendar.delays%s
+D a-except.ads		20200930073818 a7106115 ada.exceptions%s
+D a-finali.ads		20200930073818 bf4f806b ada.finalization%s
+D a-ioexce.ads		20200930073818 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20200930073818 0240fc73 ada.real_time%s
+D a-stream.ads		20200930073818 119b8fb3 ada.streams%s
+D a-tags.ads		20200930073818 491b781d ada.tags%s
+D a-textio.ads		20200930073818 aef4d56d ada.text_io%s
+D a-unccon.ads		20200930073818 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200930073818 5ab55268 interfaces%s
+D i-c.ads		20200930073818 5421119b interfaces.c%s
+D i-cstrea.ads		20200930073818 e53d8b8e interfaces.c_streams%s
+D rcp.ads		20191109184152 92b1d698 rcp%s
+D rcp-control.ads	20161026115012 2546cd34 rcp.control%s
+D rcp-user.ads		20191109183120 a9405365 rcp.user%s
+D rcp-user.adb		20191109191602 ceac557c rcp.user%b
+D system.ads		20200930073818 4635ec04 system%s
+D s-atacco.ads		20200930073818 4c36d12f system.address_to_access_conversions%s
+D s-conca4.ads		20200930073818 7e642b20 system.concat_4%s
+D s-conca5.ads		20200930073818 875e432e system.concat_5%s
+D s-crtl.ads		20200930073818 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200930073818 54135002 system.exception_table%s
+D s-ficobl.ads		20200930073818 078245e4 system.file_control_block%s
+D s-finroo.ads		20200930073818 4ff27390 system.finalization_root%s
+D s-imgint.ads		20200930073818 02dbe0c2 system.img_int%s
+D s-linux.ads		20200930073818 ed0b8aee system.linux%s
+D s-multip.ads		20200930073818 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20200930073818 2da46a9c system.os_constants%s
+D s-osinte.ads		20200930073818 baabc537 system.os_interface%s
+D s-parame.ads		20200930073818 48ec542b system.parameters%s
+D s-secsta.ads		20200930073818 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200930073818 a7318a92 system.soft_links%s
+D s-stache.ads		20200930073818 a37c21ec system.stack_checking%s
+D s-stausa.ads		20200930073818 017a0a05 system.stack_usage%s
+D s-stalib.ads		20200930073818 09bd3940 system.standard_library%s
+D s-stoele.ads		20200930073818 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20200930073818 2b3f8252 system.task_info%s
+D s-taspri.ads		20200930073818 f40ac08d system.task_primitives%s
+D s-taprop.ads		20200930073818 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20200930073818 b9d612e2 system.tasking%s
+D s-taprob.ads		20200930073818 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20200930073818 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20200930073818 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tassta.ads		20200930073818 cca55c94 system.tasking.stages%s
+D s-traent.ads		20200930073818 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200930073818 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200930073818 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [user_t rcp__user 5 14 none]
+G c Z s s [user_tVIP rcp__user 5 4 none]
+G r o none [user_t rcp__user 5 14 none] [demand rcp__control__controller 4 13 none]
+G r p none [user_t rcp__user 5 14 none] [release rcp__control__controller 7 17 none]
+X 1 ada.ads
+16K9*Ada 20e8 18|1r6 7r11
+X 10 a-textio.ads
+57K13*Text_IO 727e16 18|1w10 7r15
+508U14*Put_Line 18|16s10 24s10 35s10
+X 15 rcp.ads
+1K9*RCP 16e8 17|1r9 11r5 18|2r6 4r14 7r24 44r5
+6I9*Request_T<short_short_integer> 17|8r18 18|13r48 18r22 26r22 37r22
+8E9*Use_T 8e39 17|7r18
+12R9*Resource_T 15e14 18|12r23 13r9
+13e7*Item{8E9} 18|13m21
+14i7*Granted{6I9} 18|13m37 26r53 37r53
+X 16 rcp-control.ads
+1K13*Control 34e16 18|2w10 7r28
+3w14*Controller 18|22r10 33r10
+4Y13 Demand 18|22s21
+7U17 Release 18|33s21
+X 17 rcp-user.ads
+1K13*User 15|1k9 17|11l9 11e13 18|4b18 44l9 44t13
+5T14*User_T 6d7 7d7 8d7 9d7 18|6b14 42l8 42t14
+6i7 Id{positive} 18|16r42 24r42 35r42
+7e7 Extent{15|8E9} 18|13r29
+8i7 Demand{15|6I9} 18|18r39 22r44
+9i7 Interval{positive} 18|30r26 40r26
+X 18 rcp-user.adb
+12r7 My_Allocation{15|12R9} 22m29 26r39 33r30 37r39
+X 36 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+

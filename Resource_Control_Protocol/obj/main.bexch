@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/maxelweb/Github/adacore-sandbox/Resource_Control_Protocol/Main.gpr
+20031109153110 8b677c5eed870fc7586554fa30e1ef28
+[BOUND OBJECT FILES]
+/home/maxelweb/Github/adacore-sandbox/Resource_Control_Protocol/obj/rcp.o
+/home/maxelweb/Github/adacore-sandbox/Resource_Control_Protocol/obj/rcp-control.o
+/home/maxelweb/Github/adacore-sandbox/Resource_Control_Protocol/obj/rcp-user.o
+/home/maxelweb/Github/adacore-sandbox/Resource_Control_Protocol/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/maxelweb/Github/adacore-sandbox/Resource_Control_Protocol/obj/
+-L/home/maxelweb/Github/adacore-sandbox/Resource_Control_Protocol/obj/
+-L/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/adalib/
+-static
+/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/adalib/libgnarl.a
+/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/adalib/libgnat.a
+-lrt
+-lpthread
+-ldl
