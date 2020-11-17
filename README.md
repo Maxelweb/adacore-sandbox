@@ -1,6 +1,6 @@
-# adacore-sandbox
+# Concurrency Sandbox
 
-AdaCore Sandbox for Runtimes for Concurrency and Distribution
+AdaCore Sandbox and Exercises for Runtimes for Concurrency and Distribution
 
 ---
 
